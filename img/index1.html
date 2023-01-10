@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pirmas puslapis</title>
+
+<style>
+    h3 {
+        color: red;
+        font-size: 60px;
+    }
+
+    #special-heading {
+        color: red;
+    }
+
+    .color-green {
+        color: green;
+    }
+</style>
+<link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<body>
+<!-- Komentarus gali rasyti paspaudes ctrl+? -->
+
+    <!-- html elementai yra dvieju tipu
+    Block tipo HTML elementai:
+    1.Prasideda naujoje eiluteje
+    2.Uzima pilna tevinio elemento ploti
+
+
+Komentarai galima parasyti ivedus <--r uzbaigus su -->
+
+    <!--Headings pavadinimai-->
+
+
+
+
+    <h1>heading 1</h1>
+    <h2 style="color: blue; text-transform:uppercase;" >Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5 id="special-heading">Heading 5</h5>
+    <h6>Heading 6</h6>
+<!-- Grupuojantis elementas, viena is funkciju keisti spalvas
+-->
+
+<!-- id yra identifikavimo elementas, pvz puslapyje nurodyti tam tikra vieta ( naudojama su # )-->
+
+    <div id="headers">
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>Heading 3</h3>
+        <h4>Heading 4</h4>
+        <h5>Heading 5</h5>
+        <h6>Heading 6</h6>
+    </div>
+
+    <!--header herosection -->
+
+
+
+    <p>cia yra paragrafas</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis ipsum culpa animi quos ex officiis assumenda eum,
+        rem voluptatum dolorem officia natus sapiente ab excepturi, beatae sequi earum! Impedit, illum.</p>
+
+      <!-- Visi Ol ir UL elementu vaikiniai elementai privalo buti li elementai-->
+
+     <!--OL-Ordered List  numeruotas sarasas-->
+    <ol>
+        <li class="color-green">Pirmas</li>
+        <li>Antras</li>
+        <li>Trecias</li>
+    </ol>
+    <!--Unordered List nenumeruotas sarasas-->
+    <ul>
+        <li>Vienas</li>
+        <li>Du</li>
+        <li>trys</li>
+    </ul>
+
+    <!-- Inline tipo HTML elementai-->
+
+    <button>Click Me</button>
+
+    <!-- a yra hyperlink-->
+
+    <a href="https://google.com" target="_blank">Nuoroda</a>
+    <a href="contacts.html">kONTAKTU PUSLAPIS</a>
+    <a href="#headers">nuoroda tame paciame <b>puslapyje</b></a>
+    <a href="mailto:info@gmail.com">Susisiekti elektroniniu pastu</a>
+    <a href="tel:+37067182382">Susisiekti telefonu</a>
+
+    <!-- img elementas naudojas ideti nuotrauka i puslapy-->
+    <!-- Src yra source, is kur imti pvz nuotrauka-->
+    <!-- Width plotis    Height aukstis naudojama keisti nuotraukos dydi-->
+    <!-- alt yra butinas elementas nusakyti teksta nuotraukoje-->
+
+    <img src="https://vitapet.com/media/sz1czkya/benefits-of-getting-a-puppy-900x600.jpg?anchor=center&mode=crop&width=1240&rnd=132503927246630000" height="300" width="300" alt="Peach">
+
+    <img src="Images/cat.png" height="150" alt="Cat">
+    
+
+
+    <input type="text" placeholder="Enter Your Name">
+
+    <textarea cols="10" rows="3"></textarea>
+
+    <input type="button" value="SPAUSK">
+    <input type="checkbox" checked>
+    <input type="color">
+    <input type="date">
+    <input type="number" placeholder="Enter Your Age" value="10" min="10" max="50" step="5">
+
+<!--input atributas b-bold paryskina teksta bet jo nepadaro svarbiu,pvz paaiskint minti-->
+
+    <b>Labas</b>
+</body>
+
+</html>
